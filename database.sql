@@ -47,4 +47,4 @@ INSERT INTO accounts (username, city, transactions_completed, transactions_attem
 SELECT * FROM accounts WHERE (city ILIKE 'Miami' OR city ILIKE 'Phoenix') AND transactions_completed < 5; --to verify selection before update--
 DELETE FROM accounts WHERE (city ILIKE 'Miami' OR city ILIKE 'Phoenix') AND transactions_completed < 5;
 
---NOTE: I had accidentally executed the INSERT INTO list three times, which would explain why the new record added for Task 8 has a USER_ID of 31--
+--NOTE: I had accidentally executed the INSERT INTO list 3 times, which would explain why the new record added for Task 8 has a USER_ID of 31--
